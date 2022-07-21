@@ -1,0 +1,41 @@
+body{
+    background:#f1f5f9;
+}
+
+.wrapper{
+    width: 300px;
+    text-align: center;
+
+}
+.changeColorBtn{
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    font-weight: bold;
+    /* background:#9918a3; */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+    cursor: pointer;
+}
+
+.colorGrid{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.selectedColor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue{
+    margin-left: 5px;
+    font-weight: bold;
+}
